@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "package": "com.pedro.anubis.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "BackgroundRendererMixin",
+    "CameraMixin",
+    "ClientChunkManagerMixin",
+    "ClientInitMixin",
+    "EntityRenderDispatcherMixin",
+    "InGameHudFakeScoreboardMixin",
+    "InGameHudNameProtectMixin",
+    "IMinecraftClientAccessor",
+    "NameProtectPlayerListEntryMixin",
+    "NameProtectPlayerListHudMixin",
+    "MouseMixin",
+    "WorldRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

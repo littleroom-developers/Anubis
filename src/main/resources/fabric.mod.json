@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "anubis",
+  "version": "${version}",
+  "name": "Anubis",
+  "description": "Anubis standalone cheat client based on Meteor Client.",
+  "authors": ["archivePedro"],
+  "contact": {
+    "sources": "https://github.com/Pedro/Anubis"
+  },
+  "icon": "assets/anubis/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": ["com.pedro.anubis.AnubisAddon"]
+  },
+  "mixins": ["anubis.mixins.json"],
+  "custom": {
+    "meteor-client:color": "220,35,35"
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": ["${mc_version}"],
+    "meteor-client": "*"
+  }
+}
